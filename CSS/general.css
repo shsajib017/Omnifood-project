@@ -29,6 +29,7 @@ Bold: 700
 primary: #e67e22
 
 Tints:#fdf2e9
+      #fae5d3
 Shades:#cf711f
 Accents:
 Greys
@@ -84,9 +85,14 @@ body {
 
 .grid--2--cols {
   grid-template-columns: repeat(2, 1fr);
+  /* position: relative; */
 }
 .grid--3--cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--center--v {
+  align-self: center;
 }
 
 .heading-primary,
