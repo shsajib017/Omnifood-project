@@ -39,6 +39,7 @@ Greys
 --- 05 SHADOWS
 
 --- 06 BORDER-RADIUS: 9px
+                      11px
 
 --- 07 WHITESPACE
 
@@ -169,4 +170,8 @@ body {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
